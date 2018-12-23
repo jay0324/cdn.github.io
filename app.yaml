@@ -1,0 +1,5 @@
+ - url: /(.*)$  
+   static_files: static/\1  
+   upload: static/.*$  
+   http_headers:  
+      Access-Control-Allow-Origin: "*" 
